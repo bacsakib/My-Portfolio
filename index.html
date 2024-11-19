@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sakib</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap");
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              montserrat: ["Montserrat", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header class="font-montserrat text-sm">
+      <div class="bg-[#ebeff2] border-b-2">
+        <div class="flex justify-between items-center w-9/12 py-3 mx-auto">
+          <div class="logo w-32">
+            <img src="LOGO.png" alt="" />
+          </div>
+          <div class="menu flex gap-x-12 items-center">
+            <div class="menu flex gap-x-12">
+              <a href="#">HOME</a>
+              <a href="#">ABOUT</a>
+              <a href="#">SERVICES</a>
+              <a href="#">BLOG</a>
+              <a href="#">SHOP</a>
+              <a href="#">CONTACT</a>
+            </div>
+
+            <div
+              class="p-3 px-4 bg-gradient-to-r from-[#cdd7df] to-[#e9edf0] shadow-xl shadow-slate-300 py-3  rounded-full cursor-pointer text-gray-700 hover:bg-gradient-to-r hover:from-[#8c6bb0] hover:to-[#f25c6b] hover:text-white hover:shadow-lg hover:shadow-slate-400 transition-all duration-300 ease-in-out"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="bg-[#ebeff2] pb-20">
+      <div class="heroborder-b-2">
+        <div
+          class="flex justify-between items-center w-10/12 mx-auto font-montserrat shadow-lg shadow-gray-300 rounded-xl bg-[#e4e9ed] pl-36"
+        >
+          <div class="left-section w-[650px]">
+            <p class="text-[16px] tracking-[2px] mb-3">Welcome To My Website</p>
+            <h1 class="text-6xl font-semibold">
+              Hi, I’m <span class="text-[#ff004d]">Sakib Hasan</span>
+            </h1>
+            <h3 class="text-[#ff004d] text-5xl mt-1 font-semibold">
+              a <span id="typed-text" class="text-[#1f2226]"></span>
+            </h3>
+            <p class="mt-6">
+              Explore the professional journey, expertise, and achievements of a
+              dedicated medical practitioner. Discover education, experience,
+              clinical skills, research, and patient care.
+            </p>
+            <div class="flex gap-6">
+              <button
+                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
+              >
+                See My Work
+              </button>
+
+              <button
+                class="bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 py-3 px-6 rounded-lg mt-6 text-gray-700 hover:bg-gradient-to-r hover:from-[#8c6bb0] hover:to-[#f25c6b] hover:text-white hover:shadow-lg hover:shadow-slate-400 transition-all duration-300 ease-in-out"
+              >
+                Hire Me
+              </button>
+            </div>
+          </div>
+          <div class="right-section rounded-xl">
+            <img class="w-[900px] rounded-xl" src="heroimg.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="category pt-6 pb-24 border-2 my-12 border-x-gray-400">
+        <div class="heading text-center mb-5">
+            <p  class="text-[16px] tracking-[2px] mb-3 text-[#ff004d]">What I Do For You</p>
+            <h1 class="text-6xl font-semibold">See All Category</h1>
+        </div>
+        <div class="flex gap-6 w-9/12 mx-auto items-center">
+          <div
+            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
+          >
+            <img src="004.png" alt="" />
+            <div class="flex justify-center">
+              <button
+                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
+              >
+                Web Development
+              </button>
+            </div>
+          </div>
+          <div
+            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
+          >
+            <img src="002.png" alt="" />
+            <div class="flex justify-center">
+              <button
+                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
+              >
+                Wordpress Develop
+              </button>
+            </div>
+          </div>
+          <div
+            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
+          >
+            <img src="003.png" alt="" />
+            <div class="flex justify-center">
+              <button
+                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
+              >
+                MERN Stack Dev
+              </button>
+            </div>
+          </div>
+          <div
+            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
+          >
+            <img src="001.png" alt="" />
+            <div class="flex justify-center">
+              <button
+                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
+              >
+                Graphic Design
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      // Typing effect
+      const roles = [
+        "Web Developer",
+        "Graphics Designer",
+        "WordPress Developer",
+      ];
+      let roleIndex = 0;
+      let charIndex = 0;
+      const typedTextElement = document.getElementById("typed-text");
+
+      function typeEffect() {
+        if (charIndex < roles[roleIndex].length) {
+          typedTextElement.textContent += roles[roleIndex].charAt(charIndex);
+          charIndex++;
+          setTimeout(typeEffect, 100);
+        } else {
+          setTimeout(eraseEffect, 1000);
+        }
+      }
+
+      function eraseEffect() {
+        if (charIndex > 0) {
+          typedTextElement.textContent = roles[roleIndex].substring(
+            0,
+            charIndex - 1
+          );
+          charIndex--;
+          setTimeout(eraseEffect, 50);
+        } else {
+          roleIndex = (roleIndex + 1) % roles.length;
+          setTimeout(typeEffect, 500);
+        }
+      }
+
+      // Start typing effect
+      typeEffect();
+    </script>
+  </body>
+</html>
