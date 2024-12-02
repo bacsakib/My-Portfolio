@@ -34,12 +34,12 @@
           </div>
           <div class="menu flex gap-x-12 items-center">
             <div class="menu flex gap-x-12">
-              <a href="#">HOME</a>
-              <a href="#">ABOUT</a>
+              <a href="">HOME</a>
+              <a href="#about">ABOUT</a>
               <a href="#">SERVICES</a>
               <a href="#">BLOG</a>
               <a href="#">SHOP</a>
-              <a href="#">CONTACT</a>
+              <a href="#contact">CONTACT</a>
             </div>
 
             <div
@@ -53,6 +53,7 @@
     </header>
 
     <main class="bg-[#ebeff2] pb-20">
+      <!-- Hero Section -->
       <div class="heroborder-b-2">
         <div
           class="flex justify-between items-center w-10/12 mx-auto font-montserrat shadow-lg shadow-gray-300 rounded-xl bg-[#e4e9ed] pl-36"
@@ -90,60 +91,70 @@
         </div>
       </div>
 
+      <!-- About Section -->
+      <div id="about" class="about bg-white py-16">
+        <div class="w-9/12 mx-auto text-center">
+          <p class="text-[16px] tracking-[2px] text-[#ff004d]">About Me</p>
+          <h2 class="text-5xl font-semibold mb-6">Who I Am</h2>
+          <p class="text-lg text-gray-600">
+            I’m a passionate professional with expertise in web development,
+            graphic design, WordPress customization, and the MERN stack. My
+            journey has been about creating visually stunning and functional
+            digital experiences for clients and audiences worldwide. Let’s
+            collaborate and turn ideas into reality.
+          </p>
+        </div>
+      </div>
+
+      <!-- Services Section -->
       <div class="category pt-6 pb-24 border-2 my-12 border-x-gray-400">
         <div class="heading text-center mb-5">
-            <p  class="text-[16px] tracking-[2px] mb-3 text-[#ff004d]">What I Do For You</p>
-            <h1 class="text-6xl font-semibold">See All Category</h1>
+          <p class="text-[16px] tracking-[2px] mb-3 text-[#ff004d]">
+            What I Do For You
+          </p>
+          <h1 class="text-6xl font-semibold">See All Categories</h1>
         </div>
         <div class="flex gap-6 w-9/12 mx-auto items-center">
-          <div
-            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
+          <!-- Services Items -->
+          <!-- Repeat these items for each category -->
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id="contact" class="contact bg-[#e4e9ed] py-16">
+        <div class="w-9/12 mx-auto text-center">
+          <p class="text-[16px] tracking-[2px] text-[#ff004d]">Get in Touch</p>
+          <h2 class="text-5xl font-semibold mb-6">Contact Me</h2>
+          <form
+            action="#"
+            method="post"
+            class="flex flex-col gap-4 w-6/12 mx-auto"
           >
-            <img src="004.png" alt="" />
-            <div class="flex justify-center">
-              <button
-                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
-              >
-                Web Development
-              </button>
-            </div>
-          </div>
-          <div
-            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
-          >
-            <img src="002.png" alt="" />
-            <div class="flex justify-center">
-              <button
-                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
-              >
-                Wordpress Develop
-              </button>
-            </div>
-          </div>
-          <div
-            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
-          >
-            <img src="003.png" alt="" />
-            <div class="flex justify-center">
-              <button
-                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
-              >
-                MERN Stack Dev
-              </button>
-            </div>
-          </div>
-          <div
-            class="1st bg-gradient-to-r from-[#e4e9ed] to-[#e9edf0] shadow-xl shadow-slate-300 p-8 rounded-2xl"
-          >
-            <img src="001.png" alt="" />
-            <div class="flex justify-center">
-              <button
-                class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg shadow-slate-400 hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl hover:shadow-slate-300 transition-all duration-300 ease-in-out"
-              >
-                Graphic Design
-              </button>
-            </div>
-          </div>
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="py-3 px-4 rounded-lg shadow-md"
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="py-3 px-4 rounded-lg shadow-md"
+            />
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Your Message"
+              class="py-3 px-4 rounded-lg shadow-md"
+            ></textarea>
+            <button
+              type="submit"
+              class="bg-gradient-to-r from-[#8c6bb0] to-[#f25c6b] text-white py-3 px-6 rounded-lg mt-6 shadow-lg hover:bg-gradient-to-r hover:from-[#e4e9ed] hover:to-[#e9edf0] hover:text-gray-700 hover:shadow-xl transition-all duration-300"
+            >
+              Send Message
+            </button>
+          </form>
         </div>
       </div>
     </main>
